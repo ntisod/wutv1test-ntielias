@@ -8,6 +8,7 @@ h1{
     color: #000;
 }
 
-p {
+p{
     color: #666;
+    max-width:550px;
 }
