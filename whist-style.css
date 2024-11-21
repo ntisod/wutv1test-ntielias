@@ -3,13 +3,13 @@ header, footer{
 }
 
 nav{
-    background-color: chartreuse;
+    background-color: rgb(236, 205, 255);
 }
 
 main{
-    background-color: #f9f
+    background-color: rgb(181, 96, 234)
 }
 
 section{
-    background-color: #fcf;
+    background-color: rgb(187, 120, 255);
 }
