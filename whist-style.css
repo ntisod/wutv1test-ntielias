@@ -1,15 +1,16 @@
 header, footer{
-    background-color: aqua;
+    background-color: #6BA4E8
 }
 
 nav{
-    background-color: rgb(236, 205, 255);
+    background-color: #AB6BE8
 }
 
 main{
-    background-color: rgb(181, 96, 234)
+    background-color: #D46BE8
 }
 
 section{
-    background-color: rgb(187, 120, 255);
+    background-color: #826BE8;
 }
+
