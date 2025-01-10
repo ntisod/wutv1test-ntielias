@@ -3,8 +3,14 @@ header, footer{
 }
 
 nav{
-    background-color: #AB6BE8
+    background-color: #cb91eb
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
 main{
     background-color: #D46BE8
