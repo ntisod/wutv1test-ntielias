@@ -12,3 +12,7 @@ p{
     color: #666;
     max-width:550px;
 }
+
+polygon{
+    resize: 100;
+}
