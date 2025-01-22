@@ -5,7 +5,7 @@ header, footer{
 nav ul {
     list-style-type: none;
     margin: 0px;
-    padding: 8px;
+    padding: 0px;
     width: 100%;
     border: 1px solid;
     background-color: #cb91eb
@@ -24,7 +24,7 @@ nav li:last-child {
 nav li a {
     display: block;
     color: black
-    padding: 16px 8px;
+    padding 16px 8px;
     text-decoration: none;
 }
 
@@ -38,5 +38,16 @@ main{
 
 section{
     background-color: #826BE8;
+}
+
+@media screen and (max-width: 480px) {
+
+    nav ul{
+        padding: 16px 8px;
+    }
+
+    nav li a{
+        display: inline;
+    }
 }
 
