@@ -2,6 +2,7 @@ header, footer{
     background-color: #6BA4E8
 }
 
+/*Navigering*/
 nav ul {
     list-style-type: none;
     margin: 0px;
@@ -49,5 +50,9 @@ section{
     nav li a{
         display: inline;
     }
+}
+
+.highlight{
+    background-color:lightskyblue
 }
 
