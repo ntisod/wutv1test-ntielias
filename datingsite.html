@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dating site</title>
+    <link rel="stylesheet" href="date-style.css">
 </head>
 <body>
     <h1>dating site</h1>
     <form>
+        <fieldset>
         <label for="fname">Förnamn:</label><br>
         <input type="text" id="fname" name="fname"><br>
         <label for="lname">Efternamn:</label><br>
@@ -16,6 +18,8 @@
         <input type="email" id="email" name="email"><br>
         <label for="pwd">Lösenord:</label><br>
         <input type="password" id="pwd" name="pwd"><br>
+        <label for="age">Ålder:</label><br>
+        <input type="text" id="age" name="age"><br>
         <p>Välj din Kön:</p>
         <input type="radio" id="Man" name="Gender" value="Man">
         <label for="Man">Man</label><br>
@@ -37,7 +41,9 @@
         <input type="checkbox" id="computer" name="computer" value="Computer">
         <label for="computer">Datorer</label><br>
         <input type="checkbox" id="drawing" name="drawing" value="Drawing">
-        <label for="drawning">Teckning/Ritning</label>
+        <label for="drawning">Teckning/Ritning</label><br>
+        <input type="submit" value="Submit">
+        </fieldset>
 
     </form>
 </body>
