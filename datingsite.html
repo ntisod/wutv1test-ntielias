@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>dating site</h1>
-    <form>
+    <form action="" method="post">
         <fieldset>
         <label for="fname">Förnamn:</label><br>
         <input type="text" id="fname" name="fname"><br>
@@ -19,15 +19,18 @@
         <label for="pwd">Lösenord:</label><br>
         <input type="password" id="pwd" name="pwd"><br>
         <label for="age">Ålder:</label><br>
-        <input type="text" id="age" name="age"><br>
+        <input type="number" id="age" name="age"><br>
         <p>Välj din Kön:</p>
         <input type="radio" id="Man" name="Gender" value="Man">
         <label for="Man">Man</label><br>
         <input type="radio" id="Woman" name="Gender" value="Woman">
         <label for="Woman">Kvinna</label><br>
+    </fieldset>
+    <fieldset>
+        
+        <p>Dina intresse:</p>
         <label for="hobby">Hobby:</label><br>
         <input type="text" id="hobby" name="hobby"><br>
-        <p>Dina intresse:</p>
         <input type="checkbox" id="vehicle" name="vehicle" value="Car">
         <label for="vehicle">Bilar</label><br>
         <input type="checkbox" id="food" name="food" value="Cooking">
