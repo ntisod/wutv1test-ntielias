@@ -25,3 +25,18 @@ function imageChanger(){
 function imageChanger2(){
     document.getElementById("image").src = "timberners.png";
 }
+
+function minFunktion(){
+    var x, text;
+
+    x = document.getElementById("fname").value;
+
+    text = "Hej " + x + "!";
+    alert(text);
+}
+function Calculate(){
+
+var value1 = parseFloat(document.getElementById("nummer1").value);
+var value2 = parseFloat(document.getElementById("nummer2").value);
+document.getElementById("svar").value = value1 / value2;
+}
