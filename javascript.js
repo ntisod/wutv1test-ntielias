@@ -34,9 +34,21 @@ function minFunktion(){
     text = "Hej " + x + "!";
     alert(text);
 }
-function Calculate(){
+function Calculate(operator){
 
-var value1 = parseFloat(document.getElementById("nummer1").value);
-var value2 = parseFloat(document.getElementById("nummer2").value);
-document.getElementById("svar").value = value1 / value2;
+var nummer1 = parseFloat(document.getElementById("nummer1").value);
+var nummer2 = parseFloat(document.getElementById("nummer2").value);
+var result;
+
+if (operator ==='+'){
+    result = nummer1 + nummer2;
+} else if (operator ==='-'){
+    result = nummer1 - nummer2;
+} else if (operator ==='*'){
+    result = nummer1 * nummer2;
+} else if (operator ==='/'){
+    result = nummer1 / nummer2;
+}
+
+document.getElementById("svar").value = result;
 }
