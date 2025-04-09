@@ -1,0 +1,58 @@
+header, footer{
+    background-color: #6BA4E8
+}
+
+/*Navigering*/
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border: 1px solid;
+    background-color: #cb91eb
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+nav li:last-child {
+    border-bottom: none;
+}
+
+nav li a {
+    display: block;
+    color: black
+    padding 16px 8px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background: lightblue;
+}
+
+main{
+    background-color: #D46BE8
+}
+
+section{
+    background-color: #826BE8;
+}
+
+@media screen and (max-width: 480px) {
+
+    nav ul{
+        padding: 16px 8px;
+    }
+
+    nav li a{
+        display: inline;
+    }
+}
+
+.highlight{
+    background-color:lightskyblue
+}
+
